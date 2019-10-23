@@ -19,6 +19,8 @@ chmod 777 /opt/msm/msm
 
 PATH=/opt/msm:$PATH
 
+apt-get update && apt-get install -y --no-install-recommends apt-utils
+
 # neuro debian install of connectome-workbench and getting the fsl mni templates
 # note that fmriprep is getting templates from template flow but they don't match in dimensions
 apt-get update && \
