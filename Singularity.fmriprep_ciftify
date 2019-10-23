@@ -1,7 +1,6 @@
 Bootstrap: docker
 From: poldracklab/fmriprep:1.4.1
 %post
-ode/ciftify/ciftify/bidsapp/Dockerfile
 
 # Prepare environment
 apt-get update && \
