@@ -1,7 +1,7 @@
 # Ciftify
 
 BootStrap: docker
-From: poldracklab/fmriprep:1.5.1
+From: poldracklab/fmriprep:1.5.0
 
 %post
 # Prepare environment
